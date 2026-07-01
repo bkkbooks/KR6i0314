@@ -1,0 +1,62 @@
+canonical_identifier: bkk:krp/KR6i0314/X/v1
+canonical_location: https://kanripo.org/bkk/KR6i0314/X/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金光明經玄義順正記
+  identifiers:
+    krp: KR6i0314
+    cbeta: X20n0359
+    cbeta_old_id: X20n0359
+    authorityid: CA0001791
+    json_key: X0359
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X20/X20n0359.xml
+    old_id: X20n0359
+  edition:
+    short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6i0314_000-X.yaml, hash: 'sha256:62372e7e99d468f4e716094b0284120999e48233961f553213464df86f137250'}
+  - {seq: 1, filename: KR6i0314_001-X.yaml, hash: 'sha256:baffa5fe1e724199b42680a0bdf1e66e45749ad2315c0a43704366bf09f06cf8'}
+  - {seq: 2, filename: KR6i0314_002-X.yaml, hash: 'sha256:fba1e433a81bdd172c9c97ecad2fea5403f4552eb84dcad8bbd5fd44922ffa21'}
+  - {seq: 3, filename: KR6i0314_003-X.yaml, hash: 'sha256:1556bfbeefbcdd16b1d05168ef7f246072c4170b16e0868c517357c462b51a51'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6i0314_000-X.markers.yaml, hash: 'sha256:344314d6e9ecf7fc34a9ec94e7265425261eed832f3c5e8696c539e60524115c'}
+  - {seq: 1, role: markers, filename: assets/KR6i0314_001-X.markers.yaml, hash: 'sha256:8b94707b7b4807b88716906ae9babed8c22f253b70dcdb690d17327b87c835d3'}
+  - {seq: 2, role: markers, filename: assets/KR6i0314_002-X.markers.yaml, hash: 'sha256:a401010651a9f6fb34ca3122d2d36afc968aca2d94e3664c2468d19aad4ebf4b'}
+  - {seq: 3, role: markers, filename: assets/KR6i0314_003-X.markers.yaml, hash: 'sha256:b83eed2e0ebdde72cb62facf125a2660f0cc19a7082db58fb2cbbc17ce69e6ab'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6i0314_X_001-juan-start
+    span:
+    - body
+    - 0
+    - 30228
+  label: 金光明經玄義順正記卷上并序
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6i0314_X_002-juan-start
+    span:
+    - body
+    - 0
+    - 26413
+  label: 金光明經玄義順正記卷中
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6i0314_X_003-juan-start
+    span:
+    - body
+    - 0
+    - 29853
+  label: 金光明經玄義順正記卷下
+  type: juan
+  level: 1
+hash: sha256:75b147a9e159fdf807f5b6ab0529c6b0a6a60bd85c786aaf2bd52e314a834b99
